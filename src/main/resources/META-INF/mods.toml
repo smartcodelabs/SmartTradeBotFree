@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="smarttradebot"
+version="${file.jarVersion}"
+displayName="Smart Trade Bot"
+updateJSONURL=""
+displayURL=""
+logoFile=""
+credits="smartcodelabs"
+authors="smartcodelabs"
+description='''
+A Minecraft Forge mod for automated trading.
+'''
+
+[[dependencies.smarttradebot]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.smarttradebot]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
